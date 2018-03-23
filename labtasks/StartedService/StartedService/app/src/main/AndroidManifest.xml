@@ -9,10 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <action android:name="ro.pub.cs.systems.eim.lab05.startedservice.string" />
         <service
             android:name=".service.StartedService"
-            android:exported="true"/>
+            android:exported="true"
+            android:enabled="true" />
+
 
     </application>
 
